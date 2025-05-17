@@ -19,12 +19,12 @@ todos.forEach((todo)=>{
     }
 });
 
-console.log("done todos: ");
+console.log("Completed tasks: ");
 doneTodos.forEach(todo=>{
     console.log(`-${todo.title}`)
 })
 
-console.log("\n\nOngoing todos: ");
+console.log("\n\nOngoing tasks: ");
 onGoningTodos.forEach(todo=>{
     console.log(`-${todo.title}`)
 })
